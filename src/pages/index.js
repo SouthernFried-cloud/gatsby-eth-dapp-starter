@@ -33,14 +33,6 @@ const IndexPage = () => {
                     <Button size="small" as="a" href="/app/">DAPP</Button>
                 </Text.p>
             </Box>
-            <hr/>
-
-            <Box mt={4}>
-                <Text.p>To go directly to our MarketPlace--
-                    <Button size="small" onClick={_openLink(marketplace)}>MARKETPLACE</Button>&nbsp;&nbsp;--&nbsp;&nbsp;<small><b>{githubRepo}</b></small>
-                </Text.p>
-            </Box>
-            <hr/>
 
             <Heading as={"h3"}>
                 WE ARE CURRENTLY UNDER CONSTRUCTION! We apologise for any inconvience and plan to be completing this project Q3-2021
