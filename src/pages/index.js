@@ -57,6 +57,7 @@ const IndexPage = () => {
                             <li>Bitski</li>
                             <li>SquareLink</li>
                             <li>Arkane Network</li>
+                            <li>QR WALLETS include Coinbase WalletLink & Wallet Connect</li>
                         </ul>
                     </li>
                     <li>
