@@ -20,43 +20,42 @@ const IndexPage = () => {
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]}/>
 
             <Heading as={"h2"}>
-                Welcome to your new Gatsby site
+                Welcome to the CryptoWaggles Official Dapp!
             </Heading>
             <Box mt={4}>
                 <Text.p>
-                    This site has statically generated marketing pages like this one
-                    and <Link to="/page-2/">Page 2.</Link>
+                     To See Waggles Available Now for Purchase go to <Link to="/page-2/">Page 2.</Link>
                 </Text.p>
                 <Text.p>
-                    It also has a dynamically generated client-side app with <b>Web3 Authentication</b>:
+                    To use our Official Dapp with <b>Web3 Authentication</b>:
                 </Text.p>
                 <Text.p>
-                    <Button size="small" as="a" href="/app/">Ethereum Dapp</Button>
+                    <Button size="small" as="a" href="/app/">DAPP</Button>
                 </Text.p>
             </Box>
             <hr/>
 
             <Box mt={4}>
-                <Text.p>
-                    <Button size="small" onClick={_openLink(githubRepo)}>Github Repo</Button>&nbsp;&nbsp;--&nbsp;&nbsp;<small><b>{githubRepo}</b></small>
+                <Text.p>To go directly to our MarketPlace--
+                    <Button size="small" onClick={_openLink(marketplace)}>MARKETPLACE</Button>&nbsp;&nbsp;--&nbsp;&nbsp;<small><b>{githubRepo}</b></small>
                 </Text.p>
             </Box>
             <hr/>
 
             <Heading as={"h3"}>
-                Account Management Integrations
+                WE ARE CURRENTLY UNDER CONSTRUCTION! We apologise for any inconvience and plan to be completing this project Q3-2021
             </Heading>
             <Box mt={3}>
                 <ul className="clean-list">
                     <li>
-                        QR-Connected Wallets
+                        Waggle Facts
                         <ul>
-                            <li>Coinbase WalletLink</li>
-                            <li>Wallet Connect</li>
+                            <li>Waggles live on Ethereum and IPFS blockchains.</li>
+                            <li>Waggles are unique and the only one of its kind.</li>
                         </ul>
                     </li>
                     <li>
-                        Hosted Wallets
+                        To participate we are integrating the following wallets:
                         <ul>
                             <li>Fortmatic</li>
                             <li>Torus</li>
@@ -69,64 +68,25 @@ const IndexPage = () => {
                         </ul>
                     </li>
                     <li>
-                        Browser Wallets
+                       These are our Browser Wallets:
                         <ul>
                             <li>MetaMask</li>
                             <li>Native (Brave, Opera, Toshi, Cipher, Status, etc..)</li>
                         </ul>
                     </li>
                     <li>
-                        Hardware Wallets
+                        We are also lauching our DeFi ERC20 token August 2021:
                         <ul>
-                            <li><del>Ledger</del> &nbsp; <mark>(todo)</mark></li>
-                            <li><del>Trezor</del> &nbsp; <mark>(todo)</mark></li>
+                            <li>Users will be able to stake the Waggle ERC20 token to earn Extremely RARE NFTs</li>
+                            <li>Users will be able to also remove thier liquidity by burning thier NFTs</li>
                         </ul>
                     </li>
                 </ul>
             </Box>
 
             <Heading as={"h3"}>
-                Blockchain Related Integrations
+               STAY Tuned! START collecting Waggle NFTs at the Marketplace and be looking for our ICO ERC20 AIRDROP in JULY 2021
             </Heading>
-            <Box>
-                <ul className="clean-list">
-                    <li>
-                        Event Streaming &amp; Notifications
-                        <ul>
-                            <li><del>dfuse.io</del> &nbsp; <mark>(todo)</mark></li>
-                        </ul>
-                    </li>
-                    <li>
-                        Design Components
-                        <ul>
-                            <li>Rimble UI</li>
-                        </ul>
-                    </li>
-                </ul>
-            </Box>
-
-
-            <Heading as={"h3"}>
-                Other Integrations
-            </Heading>
-            <Box>
-                <ul className="clean-list">
-                    <li>
-                        Gatsby Plugins
-                        <ul>
-                            <li>gatsby-plugin-react-helmet</li>
-                            <li>gatsby-plugin-create-client-paths</li>
-                            <li>gatsby-source-filesystem</li>
-                            <li>gatsby-transformer-sharp</li>
-                            <li>gatsby-plugin-sharp</li>
-                            <li>gatsby-plugin-manifest</li>
-                            <li>gatsby-plugin-lodash</li>
-                            <li>gatsby-plugin-netlify</li>
-                            <li>gatsby-plugin-offline</li>
-                        </ul>
-                    </li>
-                </ul>
-            </Box>
         </Layout>
     );
 };
