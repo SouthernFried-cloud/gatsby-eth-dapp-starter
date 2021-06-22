@@ -1,5 +1,5 @@
 module.exports = {
-    siteTitle: 'CryptoWaggles eth Dapp',
+    siteTitle: 'Welcome to CryptoWaggles Official Dapp',
     siteDesc: 'Gatsby v2 Starter for CryptoWaggles Official Dapp',
     siteAuthor: 'Rob Secord (robsecord.eth),SouthernFried (southernfried.tokenid.eth)',
     siteLogoUrl: 'src/images/gatsby-icon.png',
